@@ -1,0 +1,89 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategrey;
+}
+.container{
+    width: 80%;
+    max-width: 300px;
+    height: 400px;
+    background-color: black;
+    margin-top: 10%;
+    border-radius: 20px;
+    
+    
+}
+h1{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10%;
+}
+h6{
+    color: white;
+}
+
+
+.ibox-box{
+    width: 80px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 35%;
+    border-radius:50px;
+    overflow: hidden;
+}
+.ibox-box img{
+    width: 100px;
+    height: 100px;
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #CCD0CF;
+    margin-left: 35%;
+    margin-top: 4%;
+    border-radius: 10px;
+    color: #11212D;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+button:hover{
+    color: white;
+}
+.ibox-forgot-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    cursor: pointer;
+
+    color: white;
+    padding-top: 3%;
+}
+h2{
+    color: white;
+    padding-top: 30%;
+}
+
+
+/* Responsive Grid */
+@media (min-width: 640px) {
+    .blog-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .blog-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
